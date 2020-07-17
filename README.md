@@ -3,7 +3,7 @@
 ### Getting Started
 `````
 git clone https://github.com/wang90/python-vue-amis.git
-cd projectionist/
+cd python-vue-amis/
 virtualenv --python=python3 venv
 source venv/bin/activate
 pip install -r requirement.txt
