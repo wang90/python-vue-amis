@@ -5,9 +5,9 @@
 git clone https://github.com/wang90/python-vue-amis.git
 cd python-vue-amis/
 virtualenv --python=python3 venv
-source venv/bin/activate
+
 pip install -r requirement.txt
-uvicorn projectionist.app:app --reload
+
 ``````
 
 ### Frontend
@@ -25,3 +25,7 @@ npm run-script build
 - Python 3.6 +
 - FastAPI: https://fastapi.tiangolo.com/
 - amis: https://github.com/baidu/amis
+```````
+source venv/bin/activate
+uvicorn projectionist.app:app --reload
+```````
