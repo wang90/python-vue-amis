@@ -17,6 +17,5 @@ async def web_home(
         request: Request,
         ostype: str = ''
     ):
-    print(123)
     context = {"request": request}
     return templates.TemplateResponse("index.html", context)
