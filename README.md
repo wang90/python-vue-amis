@@ -5,9 +5,7 @@
 git clone https://github.com/wang90/python-vue-amis.git
 cd python-vue-amis/
 virtualenv --python=python3 venv
-
 pip install -r requirement.txt
-
 ``````
 
 ### Frontend
