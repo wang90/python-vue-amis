@@ -6,13 +6,13 @@ git clone https://github.com/wang90/python-vue-amis.git
 cd projectionist/
 rm -rf .git && git init
 
-#first use
+# first use app
 virtualenv --python=python3 venv
 source venv/bin/activate
 pip install -r requirement.txt
 uvicorn projectionist.app:app --reload
 
-#second use
+# second use app
 source venv/bin/activate
 uvicorn projectionist.app:app --reload
 ``````
