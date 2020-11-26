@@ -6,7 +6,7 @@ git clone https://github.com/wang90/python-vue-amis.git
 rm -rf .git && git init
 
 # first use app
-virtualenv --python=python3 venv
+virtualenv --python=python3.7 venv
 source venv/bin/activate
 pip install -r requirement.txt
 uvicorn projectionist.app:app --reload

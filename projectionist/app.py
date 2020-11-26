@@ -36,9 +36,9 @@ app.add_middleware(
 
 
 # 配置前端静态文件目录
-app.mount("/js", StaticFiles(directory="projectionist/dist/js"), name="js")
-app.mount("/css", StaticFiles(directory="projectionist/dist/css"), name="css")
-app.mount("/img", StaticFiles(directory="projectionist/dist/img"), name="img")
+# app.mount("/js", StaticFiles(directory="projectionist/dist/js"), name="js")
+# app.mount("/css", StaticFiles(directory="projectionist/dist/css"), name="css")
+# app.mount("/img", StaticFiles(directory="projectionist/dist/img"), name="img")
 app.mount("/static", StaticFiles(directory="projectionist/static"), name="static")
 
 app.include_router(admin_router,prefix="/admin")
