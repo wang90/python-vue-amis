@@ -3,7 +3,6 @@
 ### Getting Started
 `````
 git clone https://github.com/wang90/python-vue-amis.git
-cd projectionist/
 rm -rf .git && git init
 
 # first use app
