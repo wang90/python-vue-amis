@@ -73,8 +73,9 @@ class Channel():
     async def count(cls, query=None):
         if query is None:
             query = {}
-        n = await db_projectionist.channel.count_documents(query)
-        return n
+        if query == {}:
+            return await db_projectionist.channel.estimated_document_count()
+        return await db_projectionist.channel.count_documents(query)
 
     @classmethod
     async def delete_multi(cls, ids):
