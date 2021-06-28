@@ -10,8 +10,6 @@ PROXY = None
 
 DOMAIN = "127.0.0.1:8000"
 
-
-# from projectionist.config_prod import *
 LAIN_DOMAIN = os.getenv('LAIN_DOMAIN')
 CLIENT_COLLECTION = "projectionist"
 # 补充线上
