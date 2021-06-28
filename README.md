@@ -17,9 +17,10 @@ source venv/bin/activate
 uvicorn projectionist.app:app --reload
 ``````
 
-### Frontend
-- vue 2.0+
-- node 14+
+### Frontend 
+* 前端内容可以不做使用，把文件打包至projectionist/dist文件即可
+- vue 2.0 +
+- node 14 +
 ```````
 cd web
 npm install 
